@@ -1,6 +1,6 @@
 {
   "name": "grand-master",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A node app for playing chess games.",
   "main": "src/index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pallant/node-chess-engine.git"
+  },
+  "bin": {
+    "grandMaster": "src/index.js"
   },
   "author": "Joel Day - Pallant Digital",
   "license": "ISC",
