@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var stockfish = require("./stockfish.js");
 var engine = stockfish();
 var position = "startpos";
